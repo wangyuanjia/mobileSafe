@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dip"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical" >
+
+     <TextView
+       android:id="@+id/tv_virus_name1"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#66ff6600"
+        android:gravity="center"
+        android:text="病毒名称"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+    
+    <TextView
+       
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#33000000"
+        android:gravity="left"
+        android:text="发现病毒,请您及时处理"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+    
+    
+  
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:background="#33000000"
+        >
+      
+        <Button 
+            android:id="@+id/cancel"
+	        android:text="取消"
+	        android:layout_width="140dip"
+	        android:layout_height="wrap_content"
+            />
+          <Button 
+           android:id="@+id/uninstall"
+	        android:text="卸载"
+	        android:layout_width="140dip"
+	        android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    
+</LinearLayout>
